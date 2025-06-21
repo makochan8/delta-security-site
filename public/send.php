@@ -12,14 +12,14 @@ $email    = htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8');
 $message  = htmlspecialchars($_POST['message'], ENT_QUOTES, 'UTF-8');
 
 // メール送信先
-$to = "info@delta455.co.jp";
+$to = "info@deltakeibisystem.sakura.ne.jp";
 
 // 件名
-$subject = "【お問い合わせ】デルタ455サイトより";
+$subject = "【お問い合わせ】株式会社デルタ警備システムサイトより";
 
 // メール本文
 $body = <<<EOM
-株式会社デルタ455宛
+株式会社デルタ警備システム宛
 
 ウェブサイトよりお問い合わせがありました。
 
